@@ -95,7 +95,7 @@
 
           <div class="col s12" style="margin-top: 1rem;">
             <a href="#" 
-            style="background-color: #43100a;"
+            style="background-color: #43100a; width: 100%;"
             class="btn-large waves-effect waves-light btn-radius">Learn more</a>
           </div>
 
