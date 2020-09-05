@@ -3,7 +3,10 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <link rel="shortcut icon" href="favicon.ico" />
   <title>Starter Template - Materialize</title>
+  
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -519,7 +522,7 @@
     </div>
     <div class="footer-copyright">
       <div class="container">
-        Copyright &copy;2020 
+        Copyright &copy;2020 - ELVISLEONARDO18
       </div>
     </div>
   </footer>
