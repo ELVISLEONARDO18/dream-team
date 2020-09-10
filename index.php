@@ -13,6 +13,7 @@
   <link href="css/materialize.css" type="text/css" rel="stylesheet"/>
   <link href="css/style.css" type="text/css" rel="stylesheet"/>
   <link href="css/site.css" type="text/css" rel="stylesheet"/>
+  <link href="css/animate.css" type="text/css" rel="stylesheet"/>
 
 
 </head>
@@ -59,7 +60,7 @@
         <div class="container paddingY-6">
           <br><br>
           <div class="flex column center items-center">
-              <h1 class="font-title">Dream team</h1>
+              <h1 class="font-title animate__animated animate__fadeInDown">Dream team</h1>
               <h5 class="font-subtitle">We help you conquer the American dream</h5>
               <a href="#" 
               id="start" 
@@ -76,10 +77,11 @@
     <!-- section of About -->
     <section id="About" class="section paddingY-3">
       <br><br>
-      <div class="container">
+      <div class="container-fluid white z-depth-1 marginX-3 paddingY-3 paddingX-3 ">
         <div class="row">
+
           <div class="col m12 l4">
-            <h3 class="font-title">About Us</h3>
+            <h3 class="font-title" id="title-about">About Us</h3>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic ab facilis sunt, ipsum eveniet repudiandae, eum aut quaerat unde quisquam nostrum quam dolore nihil aspernatur!</p>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime eius aliquid laudantium quos facere nisi!</p>
             
@@ -121,7 +123,7 @@
 
             <div class="col s12 l4">
               <div class="card-panel">
-                <h5>trending <i class="material-icons">trending_up</i> </h5>
+                <h5>Trending <i class="material-icons">trending_up</i> </h5>
                 <div class="divider"></div>
                 <span class="">I am a very simple card. I am good at containing small bits of information.
                 I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
@@ -192,7 +194,11 @@
         </div>
 
         <div class="row" style="display: flex; justify-content: center;">
-           <a href="#Pricing"><i class="material-icons medium" style="color: #43100a;">arrow_drop_down_circle</i></a> 
+           <a href="#Pricing" class="btn-floating btn-large " style="background-color: #43100a;">
+             <i class="material-icons Large" style="color: #FFF;">
+              arrow_downward
+            </i>
+          </a> 
         </div>
 
       </div>
@@ -202,16 +208,16 @@
 
 
     <!-- section of Pricing -->
-    <section id="Pricing" class="section paddingY-3">
+    <section id="Pricing" class="section paddingY-3 background-price">
       <br><br>
-      <div class="container">
+      <div class="container-fluid">
         <h3 class="center font-title">Pricing</h3>
-        <p class="center section-subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, similique?</p>
+        <p class="center section-subtitle " >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, similique?</p>
         
-        <div class="row center paddingY-3">
+        <div class="flex justify-center flex-grap center paddingY-3 paddingX-3">
 
           <!-- Basic -->
-          <div class="col s12 l4 z-depth-1 pricing">
+          <div class="col s12 l4 z-depth-1 pricing marginY-3 marginX-3">
             <div class="section">
               <h5>Basic</h5>
               <span>$19/month</span>
@@ -238,13 +244,13 @@
             <div class="section">
                 <a href="#"
                 style="background-color: #43100a; margin: 1rem 0rem;"
-                class="btn-large waves-effect btn-radius">Basic</a>
+                class="btn-small waves-effect btn-radius">Basic</a>
               
             </div>
           </div>
   
           <!-- Plus -->
-          <div class="col s12 l4 z-depth-1 pricing">
+          <div class="col s12 l4 z-depth-1 pricing marginY-3 marginX-3">
             <div class="section">
               <h5>Plus </h5>
               <span>$39/month</span>
@@ -271,13 +277,13 @@
             <div class="section">
                 <a href="#" 
                 style="background-color: #43100a; margin: 1rem 0rem;"
-                class="btn-large waves-effect btn-radius">Plus</a>
+                class="btn-small waves-effect btn-radius">Plus</a>
               
             </div>
           </div>
   
           <!-- Premium -->
-          <div class="col s12 l4 z-depth-1 pricing">
+          <div class="col s12 l4 z-depth-1 pricing marginY-3 marginX-3">
             <div class="section">
               <h5>Premium</h5>
               <span>$89/month</span>
@@ -304,7 +310,7 @@
             <div class="section">
                 <a href="#" 
                 style="background-color: #43100a; margin: 1rem 0rem;"
-                class="btn-large waves-effect btn-radius">Premium</a>
+                class="btn-small waves-effect btn-radius">Premium</a>
               
             </div>
           </div>
@@ -443,15 +449,10 @@
 
           <form class="col s12 l6 form-style">
               <div class="row">
-                <div class="input-field col s6">
+                <div class="input-field col s12">
                   <i class="material-icons prefix">account_circle</i>
                   <input id="icon_prefix" type="text" class="validate">
-                  <label for="icon_prefix">First Name</label>
-                </div>
-                <div class="input-field col s6">
-                  <i class="material-icons prefix">phone</i>
-                  <input id="icon_telephone" type="tel" class="validate">
-                  <label for="icon_telephone">Telephone</label>
+                  <label for="icon_prefix">Name</label>
                 </div>
               </div>
             <div class="row">
@@ -558,6 +559,8 @@ $(document).ready(function(){
     $('.carousel').carousel('next');
   }, 4000);
 
+
+ 
 });
 
 
