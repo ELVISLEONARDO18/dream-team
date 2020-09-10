@@ -251,3 +251,17 @@ a.active{
   padding-top: 6rem;
   padding-bottom: 6rem;
 }
+
+.z-depth-1{
+  border-radius: 5px !important;
+}
+
+
+.service:hover{
+  box-shadow: 1px 1px 0px #43100a, inset 1px 1px 0px #43100a;
+}
+
+.service:hover > div.divider{
+  background-color: #43100a;
+  height: 0.1px;
+}

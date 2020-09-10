@@ -122,7 +122,7 @@
           <div class="row marginY-3">
 
             <div class="col s12 l4">
-              <div class="card-panel">
+              <div class="card-panel service">
                 <h5>Trending <i class="material-icons">trending_up</i> </h5>
                 <div class="divider"></div>
                 <span class="">I am a very simple card. I am good at containing small bits of information.
@@ -132,7 +132,7 @@
             </div>
 
             <div class="col s12 l4">
-              <div class="card-panel">
+              <div class="card-panel service">
                 <h5>Content <i class="material-icons">edition</i> </h5>
                 <div class="divider"></div>
                 <span class="">I am a very simple card. I am good at containing small bits of information.
@@ -142,7 +142,7 @@
             </div>
 
             <div class="col s12 l4">
-              <div class="card-panel">
+              <div class="card-panel service">
                 <h5>Email Marketing <i class="material-icons">email</i> </h5>
                 <div class="divider"></div>
                 <span class="">I am a very simple card. I am good at containing small bits of information.
@@ -160,7 +160,7 @@
           <div class="row marginY-3">
 
             <div class="col s12 l4">
-              <div class="card-panel">
+              <div class="card-panel service">
                 <h5>chart <i class="material-icons">insert_chart</i></h5>
                 <div class="divider"></div>
                 <span class="">I am a very simple card. I am good at containing small bits of information.
@@ -170,7 +170,7 @@
             </div>
 
             <div class="col s12 l4">
-              <div class="card-panel">
+              <div class="card-panel service">
                 <h5>Website Design <i class="material-icons">desktop_mac</i> </h5>
                 <div class="divider"></div>
                 <span class="">I am a very simple card. I am good at containing small bits of information.
@@ -180,7 +180,7 @@
             </div>
   
             <div class="col s12 l4">
-              <div class="card-panel">
+              <div class="card-panel service">
                 <h5>Web responsive <i class="material-icons">important_devices</i> </h5>
                 <div class="divider"></div>
                 <span class="">I am a very simple card. I am good at containing small bits of information.
@@ -407,7 +407,8 @@
       <br><br>
     </section>
 
-    <div class="parallax-container">
+    <div class="parallax-container flex justify-center items-center">
+      <h3 class="blue-grey-text">We help you conquer the American dream</h3>
       <div class="parallax"><img class="responsive-img" src="./img/fondo6.jpg" alt="parallax Team" ></div>
     </div>
 
