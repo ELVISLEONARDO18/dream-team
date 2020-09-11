@@ -71,7 +71,7 @@
 
         </div>
       </div>
-      <div class="parallax responsive-img img-home"><img src="./img/fondo_1.png" alt="Unsplashed background img 1"></div>
+      <div class="parallax responsive-img img-home"><img src="./img/background_1.png" alt="Unsplashed background img 1"></div>
     </section>
 
     <!-- section of About -->
@@ -409,7 +409,7 @@
 
     <div class="parallax-container flex justify-center items-center">
       <h3 class="blue-grey-text">We help you conquer the American dream</h3>
-      <div class="parallax"><img class="responsive-img" src="./img/fondo6.jpg" alt="parallax Team" ></div>
+      <div class="parallax"><img class="responsive-img" src="./img/background_3.jpg" alt="parallax Team" ></div>
     </div>
 
     <!-- section of Contact -->
