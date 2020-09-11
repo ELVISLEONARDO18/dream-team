@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/> -->
+  <link rel="icon" href="favicon.ico" />
   <link rel="shortcut icon" href="favicon.ico" />
   <title>Starter Template - Materialize</title>
   
@@ -39,14 +39,14 @@
 
 
 <!-- Sidenav - navigation movile -->
-  <ul id="nav-mobile" class="sidenav transparent">
-     <li><a id="logo-container2" href="#" class="brand-logo white-text"><i class="material-icons" style="color: #142b39fc ;">close</i>Logo</a></li>
-    <li><a class="white-text" href="#"><i class="material-icons" style="color: #142b39fc ;">home</i>Home</a></li>
-    <li><a class="white-text" href="#About"><i class="material-icons" style="color: #142b39fc ;">work</i>About</a></li>
-    <li><a class="white-text" href="#Services"><i class="material-icons" style="color: #142b39fc ;">settings</i>Services</a></li>
-    <li><a class="white-text" href="#Pricing"><i class="material-icons" style="color: #142b39fc ;">local_atm</i>Pricing</a></li>
-    <li><a class="white-text" href="#Team"><i class="material-icons" style="color: #142b39fc ;">group</i>Team</a></li>
-    <li><a class="white-text" href="#Contact"><i class="material-icons" style="color: #142b39fc ;">message</i>Contact</a></li>
+  <ul id="nav-mobile" class="sidenav white">
+     <li><a id="logo-container2" href="#" class="brand-logo "><i class="material-icons" >close</i>Logo</a></li>
+    <li><a  href="#"><i class="material-icons" >home</i>Home</a></li>
+    <li><a  href="#About"><i class="material-icons" >work</i>About</a></li>
+    <li><a  href="#Services"><i class="material-icons" >settings</i>Services</a></li>
+    <li><a  href="#Pricing"><i class="material-icons" >local_atm</i>Pricing</a></li>
+    <li><a  href="#Team"><i class="material-icons">group</i>Team</a></li>
+    <li><a  href="#Contact"><i class="material-icons" >message</i>Contact</a></li>
   </ul>
 <!-- END Sidenav - navigation movile -->
 
@@ -89,11 +89,11 @@
           
           <div class="col s12 m12 push-l2 l6">
             <div class="carousel">
-              <a class="carousel-item" href="#one!"><img class="responsive-img" alt="image 1 carousel" src="https://lorempixel.com/250/250/business/1"></a>
-              <a class="carousel-item" href="#two!"><img class="responsive-img" alt="image 2 carousel" src="https://lorempixel.com/250/250/business/2"></a>
-              <a class="carousel-item" href="#three!"><img class="responsive-img" alt="image 3 carousel" src="https://lorempixel.com/250/250/business/3"></a>
-              <a class="carousel-item" href="#four!"><img class="responsive-img" alt="image 4 carousel" src="https://lorempixel.com/250/250/business/4"></a>
-              <a class="carousel-item" href="#five!"><img class="responsive-img" alt="image 5 carousel" src="https://lorempixel.com/250/250/business/5"></a>
+              <a class="carousel-item" href="#one!"><img class="responsive-img" alt="image 1 carousel" src="https://lorempixel.com/400/400/business/1"></a>
+              <a class="carousel-item" href="#two!"><img class="responsive-img" alt="image 2 carousel" src="https://lorempixel.com/400/400/business/2"></a>
+              <a class="carousel-item" href="#three!"><img class="responsive-img" alt="image 3 carousel" src="https://lorempixel.com/400/400/business/3"></a>
+              <a class="carousel-item" href="#four!"><img class="responsive-img" alt="image 4 carousel" src="https://lorempixel.com/400/400/business/4"></a>
+              <a class="carousel-item" href="#five!"><img class="responsive-img" alt="image 5 carousel" src="https://lorempixel.com/400/400/business/5"></a>
             </div>
           </div>
 
@@ -490,9 +490,6 @@
   </main>
   <!-- END Content -->
 
-  <!-- <div class="parallax-container">
-    <div class="parallax"><img class="responsive-img" src="./img/fondo_7.png" alt="" ></div>
-  </div> -->
 
   <footer class="page-footer" style="background-color: #142b39fc;">
     <div class="container">
