@@ -472,7 +472,7 @@
             </div>
             <div class="row">
               <div class="col">
-                <a href="!#" class="btn waves-effect btn-contact">Submit
+                <a href="#" class="btn waves-effect btn-contact">Submit
                   <i class="material-icons right">send</i>
                 </a>
               </div>
