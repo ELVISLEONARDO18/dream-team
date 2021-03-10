@@ -89,11 +89,11 @@
           
           <div class="col s12 m12 push-l2 l6">
             <div class="carousel">
-              <a class="carousel-item" href="#one!"><img class="responsive-img" alt="image 1 carousel" src="https://lorempixel.com/400/400/business/1"></a>
-              <a class="carousel-item" href="#two!"><img class="responsive-img" alt="image 2 carousel" src="https://lorempixel.com/400/400/business/2"></a>
-              <a class="carousel-item" href="#three!"><img class="responsive-img" alt="image 3 carousel" src="https://lorempixel.com/400/400/business/3"></a>
-              <a class="carousel-item" href="#four!"><img class="responsive-img" alt="image 4 carousel" src="https://lorempixel.com/400/400/business/4"></a>
-              <a class="carousel-item" href="#five!"><img class="responsive-img" alt="image 5 carousel" src="https://lorempixel.com/400/400/business/5"></a>
+              <a class="carousel-item" href="#one!"><img class="responsive-img" alt="image 1 carousel" src="./img/carousel_1.jpg"></a>
+              <a class="carousel-item" href="#two!"><img class="responsive-img" alt="image 2 carousel" src="./img/carousel_2.jpg"></a>
+              <a class="carousel-item" href="#three!"><img class="responsive-img" alt="image 3 carousel" src="./img/carousel_3.jpg"></a>
+              <a class="carousel-item" href="#four!"><img class="responsive-img" alt="image 4 carousel" src="./img/carousel_4.jpg"></a>
+              <a class="carousel-item" href="#five!"><img class="responsive-img" alt="image 5 carousel" src="./img/carousel_5.jpg"></a>
             </div>
           </div>
 
