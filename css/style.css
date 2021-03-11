@@ -47,7 +47,21 @@ nav ul a:hover {
   background-color: #e6e9eb1c;
 }
 
+.navbar-fixed > nav{
+  background-color: #142b39fc;
+}
+
 /* -------------------------- */
+
+/* Header */
+#header{
+  height: 100vh;
+}
+#start{
+  background-color: #43100a;
+  width: 20rem;
+}
+
 
 /* style Pricing */
 #About, #Pricing, #Contact{
@@ -176,7 +190,11 @@ label.active{
   height: 0.1px;
 }
 
-      
+/* Footer */
+.page-footer{
+  background-color: #142b39fc;
+}
+
 /* Margin and padding */
 .marginY-3{
   margin-top: 3rem;
