@@ -1,10 +1,5 @@
 /* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
+
 
 .icon-block {
   padding: 0 15px;
@@ -12,3 +7,234 @@
 .icon-block .material-icons {
 	font-size: inherit;
 }
+
+.font-title{
+  color: #142b39fc ; 
+  font-weight: 500;
+}
+
+.font-subtitle{
+  color: #142b39fc; 
+  margin-top: -1.5rem;
+}
+
+.section-subtitle{
+  font-size: 1.6rem !important;
+  font-weight: 300 !important;
+  color: #6d6a6a;
+}
+
+.img-home{
+  filter: blur(1px);
+  opacity: 0.8;
+}
+
+.btn-radius{
+  border-radius: 4px;
+}
+
+@media (max-width: 992px) {
+
+  .form-style{
+    margin: 5rem 0rem;
+  }
+
+}
+
+
+/* navbar */
+nav ul a:hover {
+  background-color: #e6e9eb1c;
+}
+
+/* -------------------------- */
+
+/* style Pricing */
+#About, #Pricing, #Contact{
+  background-color: #112b3b0d;
+}
+
+
+.pricing{
+  margin: 1rem 0rem;
+  background-color: #FFF;
+  color: #142b39fc;
+  width: 18rem !important;
+  border-radius: 5px;
+}
+
+.pricing:hover{
+  background-color: #43100ae8;
+  color: #fff;
+}
+
+.section:hover > div.divider{
+  background-color: #43100a;
+  height: 0.1px;
+
+}
+
+/* image background of precios */
+.background-price{
+  min-height: 600px;
+  background-image: url('../img/background_2.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+/* Team */
+
+.icon-social{
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: 1.5rem 1rem 0rem 0rem;
+  opacity: 0.5;
+}
+
+.icon-social:hover{
+  opacity: 0.8;
+}
+
+span.card-title{
+  font-weight: 400 !important;
+}
+.card-content>p{
+  font-size: small;
+  font-weight: 400;
+}
+
+
+
+/* Contact */
+
+.icon-contact{
+  background-color: #142b39fc !important;
+}
+
+.font-contact{
+  color: #43100a;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+li.collection-item:hover{
+  background-color: #112b3b1a;
+}
+
+
+.start-contact{
+  color: #ffa501cf;
+}
+
+
+.btn-contact{
+  margin: 0rem 3rem;
+  background-color: #43100a;
+}
+
+.btn-contact:hover{
+  background-color: #43100ae8;
+}
+
+.btn-contact:focus{
+  background-color: #43100ae8;
+}
+
+
+
+
+.form-style{
+  padding: 0rem 2rem !important;
+}
+
+
+input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #43100a;
+  -webkit-box-shadow: 0 1px 0 0 #43100a;
+  box-shadow: 0 1px 0 0 #43100a;
+}
+
+i.material-icons.prefix.active{
+  color: #142b39fc !important;
+}
+
+label.active{
+  color: #142b39fc !important;
+}
+
+/* ---------------- */
+
+.service:hover{
+  box-shadow: 1px 1px 0px #43100a, inset 1px 1px 0px #43100a;
+}
+
+.service:hover > div.divider{
+  background-color: #43100a;
+  height: 0.1px;
+}
+
+      
+/* Margin and padding */
+.marginY-3{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.marginX-3{
+  margin-right: 3rem;
+  margin-left: 3rem;
+}
+
+.paddingY-1{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.paddingY-3{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.paddingX-3{
+  padding-right: 3rem;
+  padding-left: 3rem;
+}
+.paddingY-6{
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.z-depth-1{
+  border-radius: 5px !important;
+}
+
+/* END of Margin and padding */
+
+
+/* utilities Flexbox */
+
+.flex{
+  display: flex;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+.items-center{
+  align-items: center;
+}
+
+.flex-grap{
+  flex-wrap: wrap;
+}
+
+.column{
+  flex-direction: column;
+}
+
+.flex-row{
+  flex-direction: row;
+}
+
+/* END utilities Flexbox */
